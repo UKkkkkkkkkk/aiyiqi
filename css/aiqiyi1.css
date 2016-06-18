@@ -53,7 +53,6 @@ img {
 
 .headFirst {
     height: 60px;
-    min-width: 1349px;
     width: 100%;
     background: #222;
 }
@@ -256,7 +255,15 @@ img {
     height: 170px;
     background: url("../img/login-pop-star.png");
 }
-
+.headFirst .urudmr .inter .inter1 a{
+    background: url(../img/pop-star-close.png) no-repeat 0 -28px;
+    width: 13px;
+    height: 13px;
+    display: block;
+    position: absolute;
+    right: 17px;
+    top: 70px;
+}
 .headFirst .urudmr .inter .inter2 {
     position: relative;
     width: 462px;
@@ -437,7 +444,15 @@ img {
     height: 170px;
     background: url("../img/login-pop-star.png");
 }
-
+.headFirst .urudmr .outer .outer1 a{
+background: url(../img/pop-star-close.png) no-repeat 0 -28px;
+width: 13px;
+height: 13px;
+display: block;
+position: absolute;
+right: 17px;
+top: 70px;
+}
 .headFirst .urudmr .outer .outer2 {
     position: relative;
     width: 462px;
@@ -648,13 +663,22 @@ img {
 }
 
 .headSecond .focusImg {
-    position: absolute;
+    position: relative;
+    overflow: hidden;
     top: 0;
     left: 0;
     width: 1348px;
     height: 520px;
 }
-
+.headSecond .focusImg ul{
+    position: absolute;
+    left: 0px;
+    width: 13480px;
+    height: 520px;
+}
+.headSecond .focusImg ul li a{
+    float: left;
+}
 .headSecond .focusImg ul .fi1 a {
     display: block;
     height: 520px;
@@ -664,7 +688,6 @@ img {
 
 .headSecond .focusImg ul .fi2 a {
     display: block;
-    display: none;
     height: 520px;
     width: 1348px;
     background: url("../img/banner/banner2.jpg") no-repeat;
@@ -672,7 +695,6 @@ img {
 
 .headSecond .focusImg ul .fi3 a {
     display: block;
-    display: none;
     height: 520px;
     width: 1348px;
     background: url("../img/banner/banner3.jpg") no-repeat;
@@ -680,7 +702,6 @@ img {
 
 .headSecond .focusImg ul .fi4 a {
     display: block;
-    display: none;
     height: 520px;
     width: 1348px;
     background: url("../img/banner/banner4.jpg") no-repeat;
@@ -688,7 +709,6 @@ img {
 
 .headSecond .focusImg ul .fi5 a {
     display: block;
-    display: none;
     height: 520px;
     width: 1348px;
     background: url("../img/banner/banner5.jpg") no-repeat;
@@ -696,7 +716,6 @@ img {
 
 .headSecond .focusImg ul .fi6 a {
     display: block;
-    display: none;
     height: 520px;
     width: 1348px;
     background: url("../img/banner/banner6.jpg") no-repeat;
@@ -704,7 +723,6 @@ img {
 
 .headSecond .focusImg ul .fi7 a {
     display: block;
-    display: none;
     height: 520px;
     width: 1348px;
     background: url("../img/banner/banner7.jpg") no-repeat;
@@ -712,7 +730,6 @@ img {
 
 .headSecond .focusImg ul .fi8 a {
     display: block;
-    display: none;
     height: 520px;
     width: 1348px;
     background: url("../img/banner/banner8.jpg") no-repeat;
@@ -720,7 +737,6 @@ img {
 
 .headSecond .focusImg ul .fi9 a {
     display: block;
-    display: none;
     height: 520px;
     width: 1348px;
     background: url("../img/banner/banner9.jpg") no-repeat;
@@ -728,7 +744,6 @@ img {
 
 .headSecond .focusImg ul .fi10 a {
     display: block;
-    display: none;
     height: 520px;
     width: 1348px;
     background: url("../img/banner/banner10.jpg") no-repeat;
@@ -751,7 +766,12 @@ img {
     line-height: 33px;
     font-size: 14px;
 }
-
+.headSecond .focusli ul li:nth-child(1){
+    margin-top: 22px;
+}
+.headSecond .focusli ul li.bg{
+    background: #63b504;
+}
 .headSecond .focusli ul li:hover {
     background: #63b504;
 }
@@ -791,9 +811,7 @@ img {
     float: left;
 }
 
-.headSecond .angel ul li:hover {
-    color: #6cc900
-}
+
 
 .headSecond .angel ul.nav_one {
     width: 54px;
@@ -1135,13 +1153,16 @@ img {
 }
 
 .three .three-two .banner {
+    position: relative;
     width: 380px;
     height: 252px;
     overflow: hidden;
 }
 
 .three .three-two .banner ul {
-    width: 760px;
+    position: absolute;
+    left: 0px;
+    width: 1140px;
     height: 252px;
 }
 
@@ -1153,9 +1174,19 @@ img {
     background: url("../img/twobanner/1.jpg") no-repeat center;
     background-size: 100% 100%;
 }
+.three .three-two .banner ul li:nth-child(3) {
+    position: relative;
+    left: 760px;
+    top: -504px;
+    width: 380px;
+    height: 252px;
+    background: url("../img/twobanner/1.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2*/
 
 .three .three-two .banner .left{
+    display: none;
     position: absolute;
     top: 95px;
     width: 25px;
@@ -1163,6 +1194,7 @@ img {
 }
 
 .three .three-two .banner .right{
+    display: none;
     position: absolute;
     top: 95px;
     width: 25px;
@@ -1233,6 +1265,47 @@ img {
     opacity: 1;
 }
 
+/*33333333333333333333333333333333333333*/
+.three .three-two .banner ul li:nth-child(3) > div {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 40px;
+    width: 380px;
+    cursor: pointer;
+}
+
+.three .three-two .banner ul li:nth-child(3) > span {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 380px;
+    background: rgba(0, 0, 0, .5)
+}
+
+.three .three-two .banner ul li:nth-child(3) div i {
+    display: inline-block;
+    position: relative;
+    left: 6px;
+    bottom: -7px;
+    width: 32px;
+    height: 27px;
+    background: url("../img/index-playBtn.png");
+    opacity: 1;
+}
+
+.three .three-two .banner ul li:nth-child(3) div div {
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+/*33333333333333333333333333333333333333*/
 .three .three-two .banner ul li:nth-child(2) > div {
     position: absolute;
     left: 0px;
@@ -1471,7 +1544,6 @@ img {
     margin-top: 10px;
     width: 1349px;
     height: 427px;
-    background: red;
 }
 .four div{
     float: left;
@@ -1484,7 +1556,9 @@ img {
 .four .fourLeft .title{
     position: relative;
     width: 980px;
-    height: 60px;
+    height: 40px;
+    border-bottom: 2px solid #8ac024;
+    margin-bottom: 20px;
     padding-left: 20px;
     padding-top: 15px;
     background: #FFFFFF;
@@ -1519,7 +1593,11 @@ img {
     margin-bottom: 5px;
     font-size: 14px;
     cursor: pointer;
+    color: #666;
     background: url("../img/divide-i.png") no-repeat 0 3px;
+}
+.four .fourLeft .title ul li:hover{
+    color: #699f00;
 }
 .four .fourLeft .title ul li.first{
     background: 0;
@@ -1527,28 +1605,29 @@ img {
 .four .fourLeft .main{
     margin-top: 12px;;
     width: 1000px;
-    height: 340px;
+    height: 330px;
 }
 .four .fourLeft .main .mainLeft{
     width: 400px;
-    height: 340px;
+    height: 330px;
 }
 .four .fourLeft .main .mainRight{
     width: 600px;
-    height: 340px;
-    background: #ff44b5;
+    height: 330px;
 }
 
 /*$$$$$$$$$$$$$$$引入BANNer  图$$$$$$$$$$$$$*/
 .four .fourLeft .main .mainLeft .banner {
     position: relative;
     width: 400px;
-    height: 340px;
+    height: 330px;
     overflow: hidden;
     background: #f2f2f2;
 }
 .four .fourLeft .main .mainLeft .banner ul {
-    width: 800px;
+    position: absolute;
+    left: 0px;
+    width: 1200px;
     height: 270px;
 }
 
@@ -1568,8 +1647,8 @@ img {
     left: 0px;
     background: #f2f2f2;
     width: 390px;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     color: #333;
     font-size: 14px;
     cursor: pointer;
@@ -1577,12 +1656,12 @@ img {
 .four .fourLeft .main .mainLeft .banner ul li:nth-child(1) div:nth-child(2){
     padding-left: 10px;
     position: absolute;
-    top: 310px;
+    top: 300px;
     left: 0px;
     background: #f2f2f2;
     width: 390px;
-    height: 30px;
-    line-height: 30px;
+    height: 25px;
+    line-height: 25px;
     color: #999;
     font-size: 12px;
     cursor: pointer;
@@ -1594,8 +1673,8 @@ img {
     left: 0px;
     background: #f2f2f2;
     width: 390px;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
     color: #333;
     font-size: 14px;
     cursor: pointer;
@@ -1603,16 +1682,54 @@ img {
 .four .fourLeft .main .mainLeft .banner ul li:nth-child(2) div:nth-child(2){
     padding-left: 10px;
     position: absolute;
-    top: 310px;
+    top: 300px;
     left:0px;
     background: #f2f2f2;
     width: 390px;
-    height: 30px;
-    line-height: 30px;
+    height: 25px;
+    line-height: 25px;
     color: #999;
     font-size: 12px;
     cursor: pointer;
 }
+/*轮播需要的第三个*/
+.four .fourLeft .main .mainLeft .banner ul li:nth-child(3) {
+    position: relative;
+    top: -540px;
+    left: 800px;
+    width: 400px;
+    height: 270px;
+    background: url("../img/fourbanner/1.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+/*…………………………………………………………………………………………文字*/
+.four .fourLeft .main .mainLeft .banner ul li:nth-child(3) div:nth-child(1){
+    padding-left: 10px;
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    background: #f2f2f2;
+    width: 390px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+.four .fourLeft .main .mainLeft .banner ul li:nth-child(3) div:nth-child(2){
+    padding-left: 10px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background: #f2f2f2;
+    width: 390px;
+    height: 25px;
+    line-height: 25px;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+}
+/*轮播需要的第三个*/
 .four .fourLeft .main .mainLeft .banner ul li:nth-child(1) div:nth-child(1):hover{
     color: #699f00;
 }
@@ -1623,6 +1740,12 @@ img {
     color: #699f00;
 }
 .four .fourLeft .main .mainLeft .banner ul li:nth-child(2) div:nth-child(2):hover{
+    color: #699f00;
+}
+.four .fourLeft .main .mainLeft .banner ul li:nth-child(3) div:nth-child(1):hover{
+    color: #699f00;
+}
+.four .fourLeft .main .mainLeft .banner ul li:nth-child(3) div:nth-child(2):hover{
     color: #699f00;
 }
 /*$$$$$$$$$$$$$$$$$$文字文字文字文字文字文字*/
@@ -1669,7 +1792,10 @@ img {
     padding-left: 20px;
     float: left;
 }
-
+.four .fourLeft .main .mainRight .sixPage ul li:hover div:nth-child(2){
+    color: #699f00;
+    cursor: pointer;
+}
 .four .fourLeft .main .mainRight .sixPage ul li div:nth-child(1){
     width: 180px;
     height: 100px;
@@ -1710,5 +1836,559 @@ img {
 .four .fourRight{
     width: 200px;
     height: 427px;
-    background: hotpink;
+}
+.four .fourRight .title{
+    background: #FFFFFF;
+    position: relative;
+    width: 180px;
+    height: 40px;
+    margin-left: 12px;
+    border-bottom: 2px solid #8ac024;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.four .fourRight .title h3 a span:nth-child(1){
+    font-size: 28px;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: #699f00;
+    background: url("../img/tit-playBtn.png") no-repeat 0 8px;
+}
+.four .fourRight .title h3 a span:nth-child(2){
+    font-size: 14px;
+    display: inline-block;
+    color: #699f00;
+    cursor: pointer;
+}
+.four .fourRight .main div{
+    height: 101px;
+    width: 180px;
+    margin: 12px 0px 0px 12px;
+    background: url("../img/exo.jpg") no-repeat;
+}
+.four .fourRight .main span{
+    display: block;
+    margin-left: 14px;
+    color: #333333;
+}
+.four .fourRight .main ul{
+    width: 160px;
+    height: 169px;
+    padding: 4px 10px 13px;
+}
+.four .fourRight .main ul li{
+    margin-top: 3px;
+    color: #333333;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    padding-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.four .fourRight .main ul li:hover{
+    color: #699f00;
+}
+.four .fourRight .main ul li i{
+    display: inline-block;
+    margin-right: 5px;
+    width: 6px;
+    height: 6px;
+    background: url("../img/site-icons-qyIndex.png") no-repeat;
+    background-position:-200px -700px;
+}
+/*________________CSS样式5____________________*/
+.wrapper{
+    margin-left: 74px;
+}
+.wrapper .title{
+    background: #FFFFFF;
+    position: relative;
+    width: 1180px;
+    height: 40px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.wrapper .title h3 a span:nth-child(1){
+    font-size: 28px;
+    white-space: nowrap;
+    color: #699f00;
+}
+.wrapper .title h3 a span:nth-child(2){
+    font-size: 14px;
+    display: inline-block;
+    color: #699f00;
+    cursor: pointer;
+}
+.wrapper .title ul{
+    position: absolute;
+    top: 13px;
+    left: 200px;
+    width: 629px;
+    height: 27px;
+    padding-top: 18px;
+}
+.wrapper .title ul li{
+    float: left;
+    padding: 0 8px 0 22px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #666;
+    background: url("../img/divide-i.png") no-repeat 0 3px;
+}
+.wrapper .title ul li:hover{
+    color: #699f00;
+}
+.wrapper .title ul li.first{
+    background: 0;
+}
+.wrapper .piclist li{
+    width: 180px;
+    height: 170px;
+    padding-left: 22px;
+    float: left;
+}
+.wrapper .piclist li:nth-child(1){
+    padding-left: 0px;
+}
+.wrapper .piclist li div:nth-child(1){
+    height: 101px;
+    width: 180px;
+}
+.wrapper .piclist li:nth-child(1) div:nth-child(1){
+    background: url("../img/picimg/1.jpg");
+}
+.wrapper .piclist li:nth-child(2) div:nth-child(1){
+    background: url("../img/picimg/2.jpg");
+}
+.wrapper .piclist li:nth-child(3) div:nth-child(1){
+    background: url("../img/picimg/3.jpg");
+}
+.wrapper .piclist li:nth-child(4) div:nth-child(1){
+    background: url("../img/picimg/4.jpg");
+}
+.wrapper .piclist li:nth-child(5) div:nth-child(1){
+    background: url("../img/picimg/5.jpg");
+}
+.wrapper .piclist li:nth-child(6) div:nth-child(1){
+    background: url("../img/picimg/6.jpg");
+}
+.wrapper .piclist li div:nth-child(2){
+    width: 170px;
+    height: 46px;
+    background: #f2f2f2;
+    padding: 7px 5px 0;
+}
+.wrapper .piclist li div:nth-child(2) p:nth-child(1){
+    color: #666;
+    font-size: 14px;
+}
+.wrapper .piclist li div:nth-child(2) p:nth-child(2){
+    color: #999;
+    font-size: 12px;
+}
+/*￥￥￥￥￥￥￥￥￥￥￥￥￥CSS6￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥*/
+.six{
+    position: relative;
+    margin-top: 10px;
+    height: 427px;
+}
+.six div{
+    float: left;
+}
+.six{
+    width: 1200px;
+    height: 427px;
+    margin-left: 74px;
+}
+.six .title{
+    position: relative;
+    width: 1180px;
+    height: 40px;
+    border-bottom: 2px solid #8ac024;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    background: #FFFFFF;
+}
+.six .title h3 a span:nth-child(1){
+    font-size: 28px;
+    padding-left: 20px;
+    white-space: nowrap;
+    color: #699f00;
+    background: url("../img/tit-playBtn.png") no-repeat 0 8px;
+}
+.six .title h3 a span:nth-child(2){
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 5px;
+    color: #699f00;
+    cursor: pointer;
+}
+.six .title ul{
+    position: absolute;
+    top: 13px;
+    left: 200px;
+    width: 629px;
+    height: 27px;
+    padding-top: 18px;
+}
+.six .title ul li{
+    float: left;
+    padding: 0 8px 0 22px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #666;
+    background: url("../img/divide-i.png") no-repeat 0 3px;
+}
+.six .title ul li:hover{
+    color: #699f00;
+}
+.six .title ul li.first{
+    background: 0;
+}
+.six .main{
+    margin-top: 12px;;
+    width: 1200px;
+    height: 340px;
+}
+.four .main .mainLeft{
+    width: 400px;
+    height: 340px;
+}
+.six .main .mainRight{
+    width: 800px;
+    height: 340px;
+}
+
+/*$$$$$$$$$$$$$$$引入BANNer  图$$$$$$$$$$$$$*/
+.six .main .mainLeft .banner {
+    position: relative;
+    width: 400px;
+    height: 330px;
+    overflow: hidden;
+    background: #f2f2f2;
+}
+.six .main .mainLeft .banner ul {
+    position: absolute;
+    left: 0px;
+    width: 1200px;
+    height: 270px;
+}
+
+.six .main .mainLeft .banner ul li:nth-child(1) {
+    position: relative;
+    left: 0;
+    width: 400px;
+    height: 270px;
+    background: url("../img/fourbanner/3.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.six .main .mainLeft .banner ul li:nth-child(1) div:nth-child(1){
+    padding-left: 10px;
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    background: #f2f2f2;
+    width: 390px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+.six .main .mainLeft .banner ul li:nth-child(1) div:nth-child(2){
+    padding-left: 10px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background: #f2f2f2;
+    width: 390px;
+    height: 25px;
+    line-height: 25px;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+}
+.six .main .mainLeft .banner ul li:nth-child(2) div:nth-child(1){
+    padding-left: 10px;
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    background: #f2f2f2;
+    width: 390px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+.six .main .mainLeft .banner ul li:nth-child(2) div:nth-child(2){
+    padding-left: 10px;
+    position: absolute;
+    top: 300px;
+    left:0px;
+    background: #f2f2f2;
+    width: 390px;
+    height: 25px;
+    line-height: 25px;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+}
+/*第三张轮播图*/
+.six .main .mainLeft .banner ul li:nth-child(3) {
+    position: relative;
+    top:-540px;
+    left: 800px;
+    width: 400px;
+    height: 270px;
+    background: url("../img/fourbanner/3.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.six .main .mainLeft .banner ul li:nth-child(3) div:nth-child(1){
+    padding-left: 10px;
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    background: #f2f2f2;
+    width: 390px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+.six .main .mainLeft .banner ul li:nth-child(3) div:nth-child(2){
+    padding-left: 10px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background: #f2f2f2;
+    width: 390px;
+    height: 25px;
+    line-height: 25px;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+}
+/*第三张轮播图*/
+.six .main .mainLeft .banner ul li:nth-child(1) div:nth-child(1):hover{
+    color: #699f00;
+}
+.six .main .mainLeft .banner ul li:nth-child(1) div:nth-child(2):hover{
+    color: #699f00;
+}
+.six .main .mainLeft .banner ul li:nth-child(2) div:nth-child(1):hover{
+    color: #699f00;
+}
+.six .main .mainLeft .banner ul li:nth-child(2) div:nth-child(2):hover{
+    color: #699f00;
+}
+.six .main .mainLeft .banner ul li:nth-child(2) {
+    position: relative;
+    top: -270px;
+    left: 400px;
+    width: 400px;
+    height: 270px;
+    background: url("../img/fourbanner/4.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+.six .main .mainLeft .banner div{
+    position: absolute;
+    top: 113px;
+    width: 25px;
+    height: 43px;
+}
+.six .main .mainLeft .banner .right{
+    left: 375px;
+    background: url("../img/RRRRR.png");
+}
+.six .main .mainLeft .banner .right:hover{
+    background: url("../img/index-arrR-vRRR.png");
+}
+.six .main .mainLeft .banner .left{
+    background: url("../img/LLLLL.png");
+}
+.six .main .mainLeft .banner .left:hover{
+    background: url("../img/index-arrL-vLLL.png");
+}
+/*$$$$$$$$$$$$$$$$$$$$$$引入BANNer图$$$$$$$$$$$$$$$$$$$$$*/
+
+/*########################八图开始########################*/
+
+.six .main .mainRight .eightPage{
+    width: 800px;
+    height: 330px;
+}
+.six .main .mainRight .eightPage ul li{
+    position: relative;
+    width: 180px;
+    height: 170px;
+    padding-left: 20px;
+    float: left;
+}
+.six .main .mainRight .eightPage ul li div:nth-child(2){
+    background: #f2f2f2;
+    height: 47px;
+    width: 170px;
+    padding: 7px 5px 0px;
+    color: #666666;
+}
+.six .main .mainRight .eightPage ul li:hover div:nth-child(2){
+    color: #699f00;
+    cursor: pointer;
+}
+.six .main .mainRight .eightPage ul li div:nth-child(1){
+    width: 180px;
+    height: 100px;
+}
+.six .main .mainRight .eightPage ul li div:nth-child(1) span{
+    display: block;
+    width: 38px;
+    height: 16px;
+    background: black;
+    opacity:0.4;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 75px;
+    right: 9px;
+}
+.six .main .mainRight .eightPage ul li:nth-child(1) div:nth-child(1){
+    background: url("../img/sixPage/81.jpg");
+}
+.six .main .mainRight .eightPage ul li:nth-child(2) div:nth-child(1){
+    background: url("../img/sixPage/82.jpg");
+}
+.six .main .mainRight .eightPage ul li:nth-child(3) div:nth-child(1){
+    background: url("../img/sixPage/83.jpg");
+}
+.six .main .mainRight .eightPage ul li:nth-child(4) div:nth-child(1){
+    background: url("../img/sixPage/84.jpg");
+}
+.six .main .mainRight .eightPage ul li:nth-child(5) div:nth-child(1){
+    background: url("../img/sixPage/85.jpg");
+}
+.six .main .mainRight .eightPage ul li:nth-child(6) div:nth-child(1){
+    background: url("../img/sixPage/86.jpg");
+}
+.six .main .mainRight .eightPage ul li:nth-child(7) div:nth-child(1){
+    background: url("../img/sixPage/87.jpg");
+}
+.six .main .mainRight .eightPage ul li:nth-child(8) div:nth-child(1){
+    background: url("../img/sixPage/88.png");
+}
+/******************CSS7************************/
+.six .main .mainRight .eightPage ul .porsen{
+    background:0;
+}
+.six .main .mainRight .eightPage ul .porsen a{
+    display: block;
+    height: 155px;
+    width: 180px;
+    line-height: 150px;
+    background: #699f00;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+.six .main .mainRight .eightPage ul .porsen a:hover{
+    background-color: #7db718
+}
+/*******************CSS7***********************/
+/*******************CSS样式8订阅****************/
+.subscribe{
+    margin-left: 74px;
+}
+.subscribe .title{
+    background: #FFFFFF;
+    position: relative;
+    width: 1200px;
+    height: 40px;
+    border-bottom: 2px solid #8ac024;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.subscribe .title h3 a span:nth-child(1){
+    font-size: 28px;
+    white-space: nowrap;
+    color: #699f00;
+}
+.subscribe .title h3 a span:nth-child(2){
+    font-size: 14px;
+    display: inline-block;
+    color: #699f00;
+    cursor: pointer;
+}
+.subscribe .piclist li{
+    width: 180px;
+    height: 170px;
+    padding-left: 22px;
+    float: left;
+}
+.subscribe .piclist li:nth-child(1){
+    padding-left: 0px;
+}
+.subscribe .piclist li div:nth-child(1){
+    height: 101px;
+    width: 180px;
+}
+.subscribe .piclist li:nth-child(1) div:nth-child(1){
+    background: url("../img/subscribe/1_03.jpg");
+}
+.subscribe .piclist li:nth-child(2) div:nth-child(1){
+    background: url("../img/subscribe/1_05.jpg");
+}
+.subscribe .piclist li:nth-child(3) div:nth-child(1){
+    background: url("../img/subscribe/1_07.jpg");
+}
+.subscribe .piclist li:nth-child(4) div:nth-child(1){
+    background: url("../img/subscribe/1_09.jpg");
+}
+.subscribe .piclist li:nth-child(5) div:nth-child(1){
+    background: url("../img/subscribe/1_11.jpg");
+}
+.subscribe .piclist li:nth-child(6) div:nth-child(1){
+    background: url("../img/subscribe/1_13.jpg");
+}
+.subscribe .piclist li div:nth-child(2){
+    width: 170px;
+    height: 46px;
+    background: #f2f2f2;
+    padding: 7px 5px 0;
+}
+.subscribe .piclist li div:nth-child(2) a{
+    margin-left: 9px;
+    display: block;
+    height: 28px;
+    width: 150px;
+    border: 1px solid #7db718;
+    border-radius: 3px;
+    background: #699f00;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+}
+.subscribe .piclist li div:nth-child(2) a:hover{
+    background-color: #7db718
+}
+
+/*******************CSS样式8订阅****************/
+.last{
+
+    width: 1348px;
+    height: 452px;
+    background: url("../img/last.png");
 }

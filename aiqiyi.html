@@ -19,10 +19,10 @@
                     <input type="text" placeholder="画江湖之灵主">
                     <input type="button">
                 </form>
-                <a class="user" href="javascript:;">登录
+                <a class="user" href="javascript:;" id="signIn">登录
                 </a>
-                <div class="inter">
-                    <span class="inter1"></span>
+                <div class="inter" id="inter">
+                    <span class="inter1"><a href="###" id="close"></a></span>
                     <span class="inter2">
                         <div class="form">
                             <span class="tr1">
@@ -49,10 +49,10 @@
                         </div>
                     </span>
                 </div>
-                <a class="user2" href="javascript:;">注册
+                <a class="user2" href="javascript:;" id="register">注册
                 </a>
-                <div class="outer">
-                    <span class="outer1"></span>
+                <div class="outer" id="registerIn">
+                    <span class="outer1"><a href="###" id="shut"></a></span>
                     <span class="outer2">
                          <div class="form">
                             <span class="tr1">
@@ -94,9 +94,9 @@
       <!--CSS样式2-->
         <div class="w1348">
         <div class="headSecond">
-            <div class="focusImg">
-                <ul>
-                    <li class="fi1"><a href="###"></a></li>
+            <div class="focusImg" id="outer">
+                <ul id="inner">
+                    <li class="fi1 bg"><a href="###"></a></li>
                     <li class="fi2"><a href="###"></a></li>
                     <li class="fi3"><a href="###"></a></li>
                     <li class="fi4"><a href="###"></a></li>
@@ -109,8 +109,8 @@
                 </ul>
             </div>
             <div class="focusli">
-                <ul>
-                    <li class="on"><a href="###">正直播美巡赛球员锦标赛次轮</a></li>
+                <ul id="tip">
+                    <li class="on  bg"><a href="###">正直播美巡赛球员锦标赛次轮</a></li>
                     <li><a href="###">大学生来了：薛之谦表白陈晓</a></li>
                     <li><a href="###">跑男：王祖蓝李光洙惨被虐</a></li>
                     <li><a href="###">那年青春：诗诗郑恺一见倾心</a></li>
@@ -233,13 +233,14 @@
                </div>
            </div>
            <div class="three-two">
-               <div id="banner" class="banner">
-                   <ul>
+               <div id="banner2" class="banner">
+                   <ul id="inner2">
                        <li><span></span><div><i></i><div>吃生马肉？熊本熊居然这么重口</div></div></li>
                        <li><span></span><div><i></i><div>14岁小正太直播化妆曾获赞330万</div></div></li>
+                       <li><span></span><div><i></i><div>吃生马肉？熊本熊居然这么重口</div></div></li>
                    </ul>
-                   <div class="left"></div>
-                   <div class="right"></div>
+                   <div class="left" id="bannerLeft"></div>
+                   <div class="right" id="bannerRight"></div>
                </div>
                <div class="underBanner">
                    <ul>
@@ -306,8 +307,8 @@
                     </div>
                     <div class="main">
                         <div class="mainLeft">
-                            <div class="banner">
-                                <ul>
+                            <div class="banner" id="banner3">
+                                <ul id="inner3">
                                     <li>
                                         <div>我们相爱吧</div>
                                         <div>魏大勋浪漫献唱小幸运引李沁泪崩 陈柏霖期待与智孝有续集</div>
@@ -316,9 +317,13 @@
                                         <div>看见你的声音</div>
                                         <div>何洁主持首秀表现生猛 萧亚轩黄国伦共舞闪闪惹人爱</div>
                                     </li>
+                                    <li>
+                                        <div>我们相爱吧</div>
+                                        <div>魏大勋浪漫献唱小幸运引李沁泪崩 陈柏霖期待与智孝有续集</div>
+                                    </li>
                                 </ul>
-                                <div class="left"></div>
-                                <div class="right"></div>
+                                <div class="left" id="outerLeft"></div>
+                                <div class="right" id="outerRight"></div>
                             </div>
                         </div>
                         <div class="mainRight">
@@ -366,9 +371,340 @@
                         </div>
                     </div>
                 </div>
-                <div class="fourRight"></div>
+                <div class="fourRight">
+                    <div class="title">
+                        <h3>
+                            <a href="javascript:;">
+                            <span>精彩推荐</span>
+                            <span>更多 ></span>
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="main">
+                        <div></div>
+                        <span>EXO《Monster》主镜头版</span>
+                        <ul>
+                            <li><i></i>狂风玩骨牌逼疯郑元畅</li>
+                            <li><i></i>刘亚瑟大骂某猥琐男星</li>
+                            <li><i></i>Jackson变炮兵数字神童</li>
+                            <li><i></i>荒岛求生真人秀玩大啦</li>
+                            <li><i></i>Ella游戏黑洞四爷求放过</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </div>
+      <!--CSS样式5-->
+        <div class="w1348">
+            <div class="wrapper">
+                <div class="title">
+                    <h3><a href="javascript:;">
+                        <span>&nbsp;&nbsp;脱口秀</span>
+                        <span>更多 ></span>
+                    </a></h3>
+                    <ul>
+                        <li class="first">晚安 朋友圈</li>
+                        <li>晓松奇谈</li>
+                    </ul>
+                </div>
+                <div class="piclist">
+                    <ul>
+                        <li>
+                            <div></div>
+                            <div>
+                                <p>晓松奇谈</p>
+                                <p>高晓松牵线中美大款</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <div>
+                                <p>晚安 朋友圈</p>
+                                <p>岳云鹏高晓松嘟嘴合照辣眼睛</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <div>
+                                <p>静距离</p>
+                                <p>朴海镇传授男神宝典</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <div>
+                                <p>Radio Star</p>
+                                <p>金九拉儿子现身 揭父亲另一面</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <div>
+                                <p>暴走大事件</p>
+                                <p>重磅！王尼玛真容首曝光</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                            <div>
+                                <p>非首脑会谈</p>
+                                <p>新加坡残酷鞭刑吓傻众人</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      <!--CSS样式6-->
+        <div class="w1348">
+        <div class="six">
+                <div class="title">
+                    <h3><a href="javascript:;">
+                        <span>娱乐</span>
+                        <span>更多 ></span>
+                    </a></h3>
+                    <ul>
+                        <li class="first">大牌对王牌</li>
+                        <li>爱奇艺早班机</li>
+                        <li>超能大星探</li>
+                        <li>帕帕帮</li>
+                        <li>泡菜帮</li>
+                        <li>娱乐猛回头</li>
+                    </ul>
+                </div>
+                <div class="main">
+                    <div class="mainLeft">
+                        <div class="banner" id="banner5">
+                            <ul id="inner5">
+                                <li>
+                                    <div>上影节：专访冯绍峰 赞宋茜开朗阳光</div>
+                                    <div>现在的冯绍峰成为了集导演和观众宠爱为一身的实力派人气男神。最近冯绍峰也是带来了自己和舒淇、宋茜合作的新电影《我最好朋友的婚礼》亮相上海电影节。</div>
+                                </li>
+                                <li>
+                                    <div>吴亦凡方回应床照风波:音频图像系伪造</div>
+                                    <div>当“吴亦凡被曝疑似床照”这事儿持续发酵出了一系列进展之后，就在昨天，吴亦凡工作室终于做出了官方回应。针对这次事件发布了律师声明，表示大量音频、图像等材料都是伪造滴。</div>
+                                </li>
+                                <li>
+                                    <div>上影节：专访冯绍峰 赞宋茜开朗阳光</div>
+                                    <div>现在的冯绍峰成为了集导演和观众宠爱为一身的实力派人气男神。最近冯绍峰也是带来了自己和舒淇、宋茜合作的新电影《我最好朋友的婚礼》亮相上海电影节。</div>
+                                </li>
+                            </ul>
+                            <div class="left" id="outerLeft5"></div>
+                            <div class="right" id="outerRight5"></div>
+                        </div>
+                    </div>
+                    <div class="mainRight">
+                        <div class="eightPage">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>昆凌庆祝小周周1岁生日 DIY头花心灵手巧</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>少时泰妍月底发行迷你二辑 solo回归乐坛</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>李小璐甜馨母女游迪士尼 小公主遭众人围观</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>直播:17:50刘烨发布会 回顾:周杰伦亚洲发片会</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>《美好的意外》发布预告 陈坤“床咚”桂纶镁</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>汤唯夫妇全副武装坐地铁 黑衣显低调孕肚明显</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>奶茶妹妹产后首公开现身 露甜美笑容少女风依旧</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>直击:第19届上海电影节</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+      <!--CSS样式7-->
+        <div class="w1348">
+            <div class="six">
+                <div class="title">
+                    <h3><a href="javascript:;">
+                        <span>猜你喜欢</span>
+                        <span>更多 ></span>
+                    </a></h3>
+                    <ul>
+                        <li class="first">我的播放记录</li>
+                        <li>我的订阅</li>
+                        <li>我的收藏</li>
+                        <li>我的上传</li>
+                    </ul>
+                </div>
+                <div class="main">
+                    <div class="mainLeft">
+                        <div class="banner" id="banner4">
+                            <ul id="inner4">
+                                <li>
+                                    <div>上影节：专访冯绍峰 赞宋茜开朗阳光</div>
+                                    <div>现在的冯绍峰成为了集导演和观众宠爱为一身的实力派人气男神。最近冯绍峰也是带来了自己和舒淇、宋茜合作的新电影《我最好朋友的婚礼》亮相上海电影节。</div>
+                                </li>
+                                <li>
+                                    <div>吴亦凡方回应床照风波:音频图像系伪造</div>
+                                    <div>当“吴亦凡被曝疑似床照”这事儿持续发酵出了一系列进展之后，就在昨天，吴亦凡工作室终于做出了官方回应。针对这次事件发布了律师声明，表示大量音频、图像等材料都是伪造滴。</div>
+                                </li>
+                                <li>
+                                    <div>上影节：专访冯绍峰 赞宋茜开朗阳光</div>
+                                    <div>现在的冯绍峰成为了集导演和观众宠爱为一身的实力派人气男神。最近冯绍峰也是带来了自己和舒淇、宋茜合作的新电影《我最好朋友的婚礼》亮相上海电影节。</div>
+                                </li>
+                            </ul>
+                            <div class="left" id="outerLeft4"></div>
+                            <div class="right" id="outerRight4"></div>
+                        </div>
+                    </div>
+                    <div class="mainRight">
+                        <div class="eightPage">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>昆凌庆祝小周周1岁生日 DIY头花心灵手巧</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>少时泰妍月底发行迷你二辑 solo回归乐坛</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>李小璐甜馨母女游迪士尼 小公主遭众人围观</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>直播:17:50刘烨发布会 回顾:周杰伦亚洲发片会</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>《美好的意外》发布预告 陈坤“床咚”桂纶镁</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>汤唯夫妇全副武装坐地铁 黑衣显低调孕肚明显</div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <span>11:34</span>
+                                    </div>
+                                    <div>奶茶妹妹产后首公开现身 露甜美笑容少女风依旧</div>
+                                </li>
+                                <li class="porsen">
+                                    <a href="###"> 进入个人中心 ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!--CSS样式8-->
+        <div class="w1348">
+        <div class="subscribe clear">
+            <div class="title">
+                <h3><a href="javascript:;">
+                    <span>&nbsp;&nbsp;爱频道</span>
+                    <span>更多 ></span>
+                </a></h3>
+            </div>
+            <div class="piclist">
+                <ul>
+                    <li>
+                        <div></div>
+                        <div>
+                            <a href="###">+订阅</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div></div>
+                        <div>
+                            <a href="###">+订阅</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div></div>
+                        <div>
+                            <a href="###">+订阅</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div></div>
+                        <div>
+                            <a href="###">+订阅</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div></div>
+                        <div>
+                            <a href="###">+订阅</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div></div>
+                        <div>
+                            <a href="###">+订阅</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+      <!--推拉门-->
+        <div class="w1348">
+            <a href="">
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+      <!--最后一页-->
+        <div class="w1348">
+            <div class="last clear"></div>
         </div>
 </div>
 </body>
 </html>
+<script src="js/utils.js"></script>
+<script src="js/tween.js"></script>
+<script src="js/index.js"></script>
